@@ -1,7 +1,7 @@
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 
-base: process.env.NODE_ENV === 'production' ? '/inventarioDeCostos-vue-/' : '/'
+base: process.env.NODE_ENV === 'production' ? 'inventarioDeCostos-vue-/' : '/'
 
 
 // https://vitejs.dev/config/
