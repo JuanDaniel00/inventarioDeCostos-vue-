@@ -8,3 +8,5 @@ base: process.env.NODE_ENV === 'production' ? '/inventarioDeCostos-vue-/' : '/'
 export default defineConfig({
   plugins: [vue()],
 })
+
+
